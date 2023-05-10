@@ -4,21 +4,34 @@
   "description": "Web API Kurs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cikaldev/kurs-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "kurs",
+    "bank",
+    "nodejs",
+    "express",
+    "vercel"
+  ],
+  "author": "ian <cikaldev@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cikaldev/kurs-api/issues"
   },
   "homepage": "https://github.com/cikaldev/kurs-api#readme",
   "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
